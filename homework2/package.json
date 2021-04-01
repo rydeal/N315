@@ -1,0 +1,17 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "Lorem Ipsum Fruit Store.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w",
+    "serveSite": "live-server"
+  },
+  "author": "Ryan Deal",
+  "license": "ISC"
+}

@@ -1,0 +1,48 @@
+.fruits {
+  display: flex;
+  max-width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.fruit {
+  display: flex;
+  flex-direction: column;
+  clear: right;
+  width: 25%;
+}
+
+.fruitInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.apple {
+  background-image: url(../assets/apple.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.orange {
+  background-image: url(../assets/orange.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.banana {
+  background-image: url(../assets/banana.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.productsText {
+  width: 66%;
+  margin: 0 auto;
+}

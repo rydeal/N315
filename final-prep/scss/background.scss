@@ -1,0 +1,13 @@
+.background {
+  height: 100%;
+  background-image: url(../images/background.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

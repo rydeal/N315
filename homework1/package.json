@@ -1,0 +1,19 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

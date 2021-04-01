@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 16px;
+}
+
+.background {
+  height: 100%;
+  background-image: url(../images/background.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-center-content {
+  height: 100%;
+  background-image: url(../images/background.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.background-center-content .callout {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: aquamarine;
+  margin: 50px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.background-center-content p {
+  text-align: center;
+}
+.background-center-content .circle {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background-color: bisque;
+  top: 0;
+  left: -55px;
+}
+.background-center-content .callout2 {
+  width: 400px;
+  height: 300px;
+  background-color: aquamarine;
+  margin: auto;
+}
+
+@media all and (max-width: 960px) {
+  .background-center-content {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 500px) {
+  .background-center-content .callout,
+.background-center-content .callout2 {
+    width: 300px;
+    height: 225px;
+  }
+}
+nav {
+  width: 400px;
+  height: 80px;
+  background-color: burlywood;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+}
+nav .links {
+  width: 350px;
+  height: 80px;
+  background-color: coral;
+  display: flex;
+}
+nav a {
+  margin: auto;
+}
+nav .navicon {
+  width: 50px;
+  height: 50px;
+  background-color: cadetblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.navMobileView {
+  width: 25%;
+  height: 50%;
+  background-color: burlywood;
+}
+
+@media all and (max-width: 1280px) {
+  nav {
+    height: 50px;
+    width: 50px;
+    display: flex;
+  }
+  nav .links {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+  }
+  nav .navicon {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .navicon .line {
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    margin: auto;
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,26 @@
+.aboutImg {
+  display: block;
+  float: left;
+  width: 467px;
+  height: 701px;
+  background-image: url(../assets/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15%;
+  margin-right: 1%;
+}
+
+.aboutText {
+  width: 66%;
+  color: #fff;
+  clear: right;
+}
+
+.aboutBelow {
+  width: 80%;
+  color: #fff;
+  align-content: center;
+  margin-left: 10%;
+  margin-top: -2%;
+}
