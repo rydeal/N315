@@ -1,13 +1,11 @@
 function initListensers() {
     $("#nav nav a").click(function() {
         var btnId = this.id;
-        alert("Test");
         MODEL.getView(btnId);
     });
 
     $(".viewBtn").click(function() {
         var btnId = this.id;
-        alert("Test");
         MODEL.getView(btnId);
     })
 }
