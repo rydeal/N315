@@ -1,4 +1,4 @@
-import * as MODEL from "../model/model.js";
+import * as MODEL from "model/model.js";
 
 function initListensers() {
     $("#nav nav a").click(function() {
