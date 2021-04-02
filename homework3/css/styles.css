@@ -47,7 +47,7 @@ footer p {
 .homeImg {
   width: 100%;
   height: 450px;
-  background-image: url("../../assets/home.jpg");
+  background-image: url("../assets/home.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -82,7 +82,7 @@ body {
 .aboutImg {
   width: 100%;
   height: 450px;
-  background-image: url("../../assets/about.jpg");
+  background-image: url("../assets/about.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -121,7 +121,7 @@ body {
 .contactImg {
   width: 100%;
   height: 450px;
-  background-image: url("../../assets/contact.jpg");
+  background-image: url("../assets/contact.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -141,7 +141,7 @@ body {
 .contactContent .map {
   width: 400px;
   height: 400px;
-  background-image: url("../../assets/map.png");
+  background-image: url("../assets/map.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -184,7 +184,7 @@ body {
 .servicesImg {
   width: 100%;
   height: 450px;
-  background-image: url("../../assets/services.jpg");
+  background-image: url("../assets/services.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,7 +214,7 @@ body {
 .servicesContent .serviceCards .serviceCard .cardImg {
   width: 100%;
   height: 272px;
-  background-image: url("../../assets/placeholder.png");
+  background-image: url("../assets/placeholder.png");
   background-repeat: no-repeat;
   margin-left: 8%;
   margin-bottom: -60px;
@@ -228,7 +228,7 @@ body {
 .reviewsImg {
   width: 100%;
   height: 450px;
-  background-image: url("../../assets/reviews.jpg");
+  background-image: url("../assets/reviews.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -252,7 +252,7 @@ body {
   float: left;
   width: 390px;
   height: 390px;
-  background-image: url("../../assets/couple.jpg");
+  background-image: url("../assets/couple.jpg");
   backgroudn-repeat: no-repeat;
   background-position: center;
   background-size: cover;
