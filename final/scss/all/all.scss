@@ -11,7 +11,7 @@
       rgba(167, 232, 189, 0.5),
       rgba(167, 232, 189, 0.5)
     ),
-    url(/assets/images/recipe-hero.jpg);
+    url(../assets/images/recipe-hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -62,19 +62,19 @@
       }
 
       .img1 {
-        background-image: url(/assets/images/recipe-pizza.jpg);
+        background-image: url(../assets/images/recipe-pizza.jpg);
       }
 
       .img2 {
-        background-image: url(/assets/images/recipe-burger.jpg);
+        background-image: url(../assets/images/recipe-burger.jpg);
       }
 
       .img3 {
-        background-image: url(/assets/images/recipe-pilaf.jpg);
+        background-image: url(../assets/images/recipe-pilaf.jpg);
       }
 
       .img4 {
-        background-image: url(/assets/images/recipe-chowmein.jpg);
+        background-image: url(../assets/images/recipe-chowmein.jpg);
       }
 
       .recipeInfo {
@@ -107,7 +107,7 @@
             .timeIcon {
               width: 23px;
               height: 24px;
-              background-image: url(/assets/images/time.svg);
+              background-image: url(../assets/images/time.svg);
               display: flex;
               float: left;
               margin-right: 20%;
@@ -126,7 +126,7 @@
             .serveIcon {
               width: 23px;
               height: 24px;
-              background-image: url(/assets/images/servings.svg);
+              background-image: url(../assets/images/servings.svg);
               display: flex;
               float: left;
               margin-right: 20%;

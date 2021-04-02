@@ -34,7 +34,7 @@ nav {
 nav .logo {
   height: 55px;
   width: 167px;
-  background-image: url(/assets/images/logo.svg);
+  background-image: url(../assets/images/logo.svg);
   position: absolute;
   left: 50px;
   top: 38px;
@@ -160,12 +160,12 @@ footer .right {
 footer .right .fb {
   width: 19px;
   height: 19px;
-  background-image: url(/assets/images/facebook.svg);
+  background-image: url(../assets/images/facebook.svg);
 }
 footer .right .ig {
   width: 19px;
   height: 19px;
-  background-image: url(/assets/images/instagram.svg);
+  background-image: url(../assets/images/instagram.svg);
 }
 
 @media all and (max-width: 1000px) {
@@ -181,12 +181,7 @@ footer .right .ig {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: linear-gradient(
-      to right,
-      rgba(242, 92, 84, 0.5),
-      rgba(242, 92, 84, 0.5)
-    ),
-    url(/assets/images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(242, 92, 84, 0.5), rgba(242, 92, 84, 0.5)), url(../assets/images/hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -255,12 +250,7 @@ footer .right .ig {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: linear-gradient(
-      to right,
-      rgba(167, 232, 189, 0.5),
-      rgba(167, 232, 189, 0.5)
-    ),
-    url(/assets/images/recipe-hero.jpg);
+  background-image: linear-gradient(to right, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(../assets/images/recipe-hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -295,16 +285,16 @@ footer .right .ig {
   display: flex;
 }
 .browsePage .recipes .recipe .img1 {
-  background-image: url(/assets/images/recipe-pizza.jpg);
+  background-image: url(../assets/images/recipe-pizza.jpg);
 }
 .browsePage .recipes .recipe .img2 {
-  background-image: url(/assets/images/recipe-burger.jpg);
+  background-image: url(../assets/images/recipe-burger.jpg);
 }
 .browsePage .recipes .recipe .img3 {
-  background-image: url(/assets/images/recipe-pilaf.jpg);
+  background-image: url(../assets/images/recipe-pilaf.jpg);
 }
 .browsePage .recipes .recipe .img4 {
-  background-image: url(/assets/images/recipe-chowmein.jpg);
+  background-image: url(../assets/images/recipe-chowmein.jpg);
 }
 .browsePage .recipes .recipe .recipeInfo {
   width: 224px;
@@ -336,7 +326,7 @@ footer .right .ig {
 .browsePage .recipes .recipe .recipeInfo .recipeText .recipeTime .timeIcon {
   width: 23px;
   height: 24px;
-  background-image: url(/assets/images/time.svg);
+  background-image: url(../assets/images/time.svg);
   display: flex;
   float: left;
   margin-right: 20%;
@@ -352,7 +342,7 @@ footer .right .ig {
 .browsePage .recipes .recipe .recipeInfo .recipeText .recipeServe .serveIcon {
   width: 23px;
   height: 24px;
-  background-image: url(/assets/images/servings.svg);
+  background-image: url(../assets/images/servings.svg);
   display: flex;
   float: left;
   margin-right: 20%;
@@ -569,12 +559,7 @@ footer .right .ig {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: linear-gradient(
-      to right,
-      rgba(167, 232, 189, 0.5),
-      rgba(167, 232, 189, 0.5)
-    ),
-    url(/assets/images/recipe-hero.jpg);
+  background-image: linear-gradient(to right, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(../assets/images/recipe-hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -622,16 +607,16 @@ footer .right .ig {
   line-height: 42px;
 }
 .allPage .recipes .recipe .img1 {
-  background-image: url(/assets/images/recipe-pizza.jpg);
+  background-image: url(../assets/images/recipe-pizza.jpg);
 }
 .allPage .recipes .recipe .img2 {
-  background-image: url(/assets/images/recipe-burger.jpg);
+  background-image: url(../assets/images/recipe-burger.jpg);
 }
 .allPage .recipes .recipe .img3 {
-  background-image: url(/assets/images/recipe-pilaf.jpg);
+  background-image: url(../assets/images/recipe-pilaf.jpg);
 }
 .allPage .recipes .recipe .img4 {
-  background-image: url(/assets/images/recipe-chowmein.jpg);
+  background-image: url(../assets/images/recipe-chowmein.jpg);
 }
 .allPage .recipes .recipe .recipeInfo {
   width: 224px;
@@ -663,7 +648,7 @@ footer .right .ig {
 .allPage .recipes .recipe .recipeInfo .recipeText .recipeTime .timeIcon {
   width: 23px;
   height: 24px;
-  background-image: url(/assets/images/time.svg);
+  background-image: url(../assets/images/time.svg);
   display: flex;
   float: left;
   margin-right: 20%;
@@ -679,7 +664,7 @@ footer .right .ig {
 .allPage .recipes .recipe .recipeInfo .recipeText .recipeServe .serveIcon {
   width: 23px;
   height: 24px;
-  background-image: url(/assets/images/servings.svg);
+  background-image: url(../assets/images/servings.svg);
   display: flex;
   float: left;
   margin-right: 20%;
@@ -741,7 +726,7 @@ footer .right .ig {
   background-size: cover;
   background-position: center;
   display: flex;
-  background-image: url(/assets/images/recipe-pizza.jpg);
+  background-image: url(../assets/images/recipe-pizza.jpg);
   margin-right: 30px;
   margin-left: 30px;
 }

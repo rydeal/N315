@@ -1,35 +1,21 @@
-// var MODEL = (function() {
+var MODEL = (function() {
 
-//     var _getView = function(viewName){
-//         $.get(`../views/${viewName}/${viewName}.html`, function(data) {
-//             $("#app").html(data);
-//         });
+    var _getView = function(viewName){
+        $.get(`../views/${viewName}/${viewName}.html`, function(data) {
+            $("#app").html(data);
+        });
 
-//         $("#home").removeClass("current");
-//         $("#browse").removeClass("current");
-//         $("#create").removeClass("current");
-//         $("#login").removeClass("current");
-//         $("#view").removeClass("current");
-//         $("#all").removeClass("current");
-//         $(`#${viewName}`).addClass("current");
-//     };
+        $("#home").removeClass("current");
+        $("#browse").removeClass("current");
+        $("#create").removeClass("current");
+        $("#login").removeClass("current");
+        $("#view").removeClass("current");
+        $("#all").removeClass("current");
+        $(`#${viewName}`).addClass("current");
+    };
 
 
-//     return {
-//         getView: _getView,
-//     };
-// })();
-
-export function getView(viewName) {
-    $.get(`/views/${viewName}/${viewName}.html`, function(data) {
-        $("#app").html(data);
-    });
-
-    $("#home").removeClass("current");
-    $("#browse").removeClass("current");
-    $("#create").removeClass("current");
-    $("#login").removeClass("current");
-    $("#view").removeClass("current");
-    $("#all").removeClass("current");
-    $(`#${viewName}`).addClass("current");
-}
+    return {
+        getView: _getView,
+    };
+})();

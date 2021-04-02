@@ -1,5 +1,3 @@
-import * as MODEL from "model/model.js";
-
 function initListensers() {
     $("#nav nav a").click(function() {
         var btnId = this.id;
@@ -12,6 +10,7 @@ function initListensers() {
         MODEL.getView(btnId);
     })
 }
+
 
 
 function initSite() {
