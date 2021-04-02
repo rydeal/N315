@@ -74,3 +74,13 @@ $(document).on('click', ".createRecipe", function() {
         MODEL.getView("create");
     };
 })
+
+$(document).on('click', '.loginBtn', function() {
+    alert("You have been logged in!");
+    MODEL.getView("all");
+});
+
+$(document).on('click', '.signupBtn', function() {
+    alert("Sign up successful!");
+    MODEL.getView("all");
+});
