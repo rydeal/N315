@@ -1,3 +1,5 @@
+import * as MODEL from "../model/model.js";
+
 function initListensers() {
     $("#nav nav a").click(function() {
         var btnId = this.id;
@@ -13,16 +15,16 @@ function initListensers() {
 
 
 function initSite() {
-    $.get('../views/nav.html', function(nav) {
+    $.get('views/nav.html', function(nav) {
         $("#nav").html(nav);
         $(`#home`).addClass("current");
     });
 
-    $.get('../views/home/home.html', function(data) {
+    $.get('views/home/home.html', function(data) {
         $("#app").html(data);
     });
 
-    $.get('../views/footer.html', function(data) {
+    $.get('views/footer.html', function(data) {
         $("#footer").html(data);
         initListensers();
     });

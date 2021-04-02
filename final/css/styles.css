@@ -181,7 +181,12 @@ footer .right .ig {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: linear-gradient(to right, rgba(242, 92, 84, 0.5), rgba(242, 92, 84, 0.5)), url(/assets/images/hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(242, 92, 84, 0.5),
+      rgba(242, 92, 84, 0.5)
+    ),
+    url(/assets/images/hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -250,7 +255,12 @@ footer .right .ig {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: linear-gradient(to right, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(/assets/images/recipe-hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(167, 232, 189, 0.5),
+      rgba(167, 232, 189, 0.5)
+    ),
+    url(/assets/images/recipe-hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -559,7 +569,12 @@ footer .right .ig {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: linear-gradient(to right, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(/assets/images/recipe-hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(167, 232, 189, 0.5),
+      rgba(167, 232, 189, 0.5)
+    ),
+    url(/assets/images/recipe-hero.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
