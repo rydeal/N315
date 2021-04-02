@@ -1,7 +1,7 @@
 var MODEL = (function() {
 
     var _getView = function(viewName){
-        $.get(`../views/${viewName}/${viewName}.html`, function(data) {
+        $.get(`/views/${viewName}/${viewName}.html`, function(data) {
             $("#app").html(data);
         });
     };
