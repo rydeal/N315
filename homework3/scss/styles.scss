@@ -1,0 +1,10 @@
+// Base styles
+@import "structure.scss";
+@import "nav.scss";
+@import "footer.scss";
+// Page styles
+@import "views/home.scss";
+@import "views/about.scss";
+@import "views/contact.scss";
+@import "views/services.scss";
+@import "views/reviews.scss";
